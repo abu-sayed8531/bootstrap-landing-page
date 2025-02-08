@@ -1,0 +1,214 @@
+:root{
+    --primary-color : #f2c512;
+    --color-secondary : #578E7E;
+    --text-color :#333; 
+    --dark-bg : #3D3D3D;
+    --light-bg-1 : #FFFAEC;
+    --light-bg-2 : #F5ECD5;
+}
+body{
+    font-family : "Helvetica Neue", Arial, sans-serif;
+    line-height : 1.5;
+    color: var(--text-color);
+
+}
+h1,h2,h3,h4{
+    font-weight : 600;
+}
+.navbar{
+       background-color: rgba(0,0,0,.8) !important;
+       padding: .5rem 0;
+       transition : all .3s ease;
+}
+.navbar-brand{
+    color : var(--primary-color) !important;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.nav-link{
+    color : white !important;
+    font-weight : 600;
+    transition : all .3s ease;
+}
+.nav-link:hover{
+    color : var(--primary-color) !important;
+
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("./images/welcome.jpg") center/cover no-repeat;
+    width:100%;
+    height : 90vh;
+    display:flex;
+    justify-content: center;
+    align-items : center;
+    text-align : center;
+    color: white;
+}
+.hero-content{
+     padding : 2rem;
+}
+.hero-content h1{
+    font-weight : 900;
+}
+.hero-content p{
+    font-weight : 600;
+}
+/* about */
+.about-section{
+    background-color: var(--light-bg-1);
+    padding : 3rem 0;
+    
+}
+.about-section img{
+    width: 100%;
+}
+.about-image{
+    overflow : hidden;
+    border-radius : 10px;
+    box-shadow : 0px 5px 15px rgba(0,0,0,.5);
+}
+
+/* menu */
+.menu{
+    padding : 3rem 0;
+    background-color : white;
+}
+.menu h2{
+    text-align :center;
+    margin-bottom : 1rem;
+    font-size : 2rem;
+    
+}
+.menu h2::after{
+    content : " ";
+    display:block;
+    width : 80px;
+    height  : 2px;
+    background-color : var(--primary-color);
+    margin : 10px auto;
+}
+.nav-pills{
+    padding : 1rem 0;
+    justify-content : center;
+}
+.nav-pills .nav-link{
+    color: var(--text-color) !important;
+    transition : all .8s ease;
+    
+   border-radius : 0px ;
+   
+}
+.nav-pills .nav-link:hover{
+    color : var(--primary-color) !important;
+     /* background-color : var(--primary-color);
+     box-shadow : 5px 5px 10px rgba(0,0,0,.5); */
+
+
+}
+.nav-pills .nav-link.active{
+    background : transparent;
+    border-bottom : 2px solid var(--primary-color);
+    
+
+}
+ .menu-item h4{
+    display: flex;
+    justify-content : space-between;
+    margin-bottom: .2rem !important;
+
+}
+.menu-item{
+    padding : 1.5rem;
+    margin-bottom : 1.3rem;
+    box-shadow : 2px 2px 5px  rgba(0,0,0,.1);
+    border-radius : 10px;
+    transition : all .3s ease;
+
+}
+.menu-item:hover{
+    transform : translateY(-5px);
+}
+.menu-item h4 .price{
+    color : var(--primary-color);
+}
+
+/* special section */
+.special-section {
+    padding: 6rem 0;
+    background-color: var(--light-bg-1);
+  }
+  .special-section h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .special-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  /* contact section */
+  .contact-section {
+    padding : 3rem 0;
+    color : var(--text-color);
+  }
+  .contact-info i {
+    color : var(--primary-color);
+  }
+  .contact-form input,
+  .contact-form textarea{
+    margin-bottom  : 1rem;
+    border-bottom : 3px solid #ddd;
+    padding : 1rem;
+  }
+
+  /* footer */
+  .contact-section {
+    padding: 6rem 0;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info i {
+    color: var(--primary-color);
+    margin-right: 1rem;
+    width: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 4rem 0 2rem;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: var(--primary-color);
+  }
+  .btn-primary{
+    background-color : var(--primary-color);
+    padding : 0.4rem 1rem;
+    font-weight : 600;
+    color : white;
+    transition  : all .3s ease;
+
+  }
+  

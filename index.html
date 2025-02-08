@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoria Fine Dining Restaurant </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <main>
+     <!-- navbar -->
+    
+     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary " >
+        <div class="container ">
+          <a class="navbar-brand " href="#">Savoria</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >Special</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a> 
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar -->
+       <!-- hero -->
+        <section id="hero" class="hero">
+          <div class="hero-content">
+
+            <h1>
+              Welcome to Savoria.
+            </h1>
+            <p>Get the best culinary feel you ever experienced  </p>
+          
+              <a href="#menu" class="btn btn-primary btn-lg">View Menu</a>
+            
+          </div>
+
+        </section>
+        <!-- about sectio -->
+         <section id="about" class="about-section">
+          <div class="container">
+
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="content-section">
+                  
+                  <h1>Savoria Restaurant</h1>
+                  <p>Discover the refined contemporary ambiance of The Savoria  Restaurant, adorned with exquisite wooden and marble accents. Indulge in a culinary journey spanning global flavors, from a rich International Buffet to tantalizing Bangladeshi specialties.</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="about-image">
+                  <img src="./images/about.jpg" class="img-fluid" alt="restaurant image">
+                </div>
+              </div>
+  
+            </div>
+          </div>
+         </section>
+         <!-- menu section -->
+          <section class="menu" id="menu">
+            <div class="container">
+              <h2>Our menu</h2>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#starters" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Starters</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#main-course" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Main Course</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#desserts" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Deserts</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#drinks" type="button" role="tab"  aria-selected="false">Drinks</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="starters" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-md-6 menu-item">
+                      
+                        <h4>
+                          Bruschetta <span class="price">$8</span>
+                        </h4>
+                        <p>
+                          <p>Toasted bread with fresh tomatoes, garlic, and basil</p>
+                        </p>
+                      
+                    </div>
+                    <div class="col-md-6 menu-item">
+                    
+                        <h4>
+                          Bruschetta <span class="price">$8</span>
+                        </h4>
+                        <p>
+                          <p>Toasted bread with fresh tomatoes, garlic, and basil</p>
+                        </p>
+                    
+                    </div>
+                    <div class="col-md-6 menu-item">
+                         <h4>Caesar Salad <span class="price">$10</span></h4>
+                       <p>
+                           Crisp romaine lettuce, parmesan, croutons with classic Caesar
+                                dressing
+                                  </p>
+                    </div>
+                    <div class="col-md-6 menu-item">
+                      <h4>French Onion Soup <span class="price">$9</span></h4>
+                          <p>
+                            Rich beef broth with caramelized onions and melted Gruyère
+                          </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="main-course" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                 <div class="row">
+                    <div class="col-md-6 menu-item">
+                      <h4>Grilled Salmon <span class="price">$28</span></h4>
+                      <p>Fresh salmon with herbs and lemon butter sauce</p>
+                         
+                    </div>
+                    <div class="col-md-6 menu-item">
+                      <h4>Beef Tenderloin <span class="price">$34</span></h4>
+                      <p>Premium cut with red wine reduction</p>
+                    </div>
+                    <div class="col-md-6 menu-item">
+                      <h4>Mushroom Risotto <span class="price">$24</span></h4>
+                      <p>Creamy Arborio rice with wild mushrooms and truffle oil</p>
+                    </div>
+                    <div class="col-md-6 menu-item">
+                      <h4>Duck Confit <span class="price">$32</span></h4>
+                      <p>Slow-cooked duck leg with roasted vegetables</p>
+                    </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                 <div class="row">
+                  <div class="col-md-6 menu-item">
+                    <h4>Tiramisu <span class="price">$9</span></h4>
+                    <p>Classic Italian dessert with coffee and mascarpone</p>
+                  </div>
+                  <div class="col-md-6 menu-item">
+                    <h4>Chocolate Fondant <span class="price">$11</span></h4>
+                    <p>Warm chocolate cake with vanilla ice cream</p>                    
+                  </div>
+                  <div class="col-md-6 menu-item">
+                         <h4>Crème Brûlée <span class="price">$10</span></h4>
+                          <p>Classic French vanilla custard with caramelized sugar</p>
+                  </div>
+                  <div class="col-md-6 menu-item">
+                    <h4>Apple Tart <span class="price">$9</span></h4>
+                    <p>Warm apple tart with caramel sauce and whipped cream</p> 
+                  </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                 <div class="row">
+                  <div class="col-md-6 menu-item">
+                    <h4>Signature Cocktails <span class="price">$12</span></h4>
+                    <p>Ask your server for our seasonal selections</p>
+                  </div>
+                  <div class="col-md-6 menu-item">
+                    <h4>Wine Selection <span class="price">$8-15</span></h4>
+                    <p>Curated wine list by our sommelier</p>
+      
+                  </div>
+                  <div class="col-md-6 menu-item">
+                    <h4>Craft Beer <span class="price">$7</span></h4>
+                <p>Local and imported craft beers on tap</p>
+                  </div>
+                  <div class="col-md-6 menu-item">
+                    <h4>Premium Spirits <span class="price">$10-25</span></h4>
+                    <p>Selection of fine whiskeys, cognacs, and spirits</p>
+        
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </section>
+           <!-- special section -->
+           <section id="special" class="special-section">
+            <div class="container">
+              <h2 class="text-center">Today's Special</h2>
+              <div class="special-card">
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <img
+                      src="./images/special.jpg"
+                      alt="Special dish"
+                      class="img-fluid rounded"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h3>Chef's Special</h3>
+                    <p>Truffle-infused Risotto with Wild Mushrooms</p>
+                    <p class="price">$32</p>
+                    <button class="btn btn-primary">Reserve Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--contact section   -->
+          <section id="contact" class="contact-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h2>Contact Us</h2>
+                  <div class="contact-info">
+                    <p>
+                      <i class="fas fa-map-marker-alt"></i> 123 Restaurant Street,
+                      City, Country
+                    </p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@savoria.com</p>
+                  </div>
+                  <div class="opening-hours">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <form class="contact-form">
+                    <div class="mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Your Email"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <textarea
+                        class="form-control"
+                        rows="4"
+                        placeholder="Your Message"
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- footer section -->
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h3>Savoria</h3>
+                  <p>Experience the art of fine dining</p>
+                </div>
+                <div class="col-md-4">
+                  <h3>Follow Us</h3>
+                  <div class="social-links">
+                    <i class="fa-solid fa-check"></i>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <h3>Newsletter</h3>
+                  <form class="newsletter-form">
+                    <input
+                      type="email"
+                      placeholder="Your email"
+                      class="form-control"
+                    />
+                    <button type="submit" class="btn btn-primary mt-2">
+                      Subscribe
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12 text-center">
+                  <p>&copy; 2024 Savoria. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+      
+    </main>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
